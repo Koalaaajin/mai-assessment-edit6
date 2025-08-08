@@ -1,0 +1,18 @@
+/*
+ * Global stylesheet for the MAI survey application. Tailwind's
+ * directives inject base styles, component styles and utility
+ * classes. Additional global rules (such as custom fonts) can be
+ * defined below the directives if needed.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Custom global styles
+ */
+body {
+  /* Apply a default text color; the background will be set on individual components */
+  /* Use the browser default text color */
+}
